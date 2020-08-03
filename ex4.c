@@ -23,9 +23,9 @@ int main() {
         }
     }
     printf("Heads: %d, Tails: %d\n", win, lose);
-    //victory part
-    if(win > lose) printf("You won\n");
-    else printf("You lost\n");
+    //merged part
+    if(win > lose) printf("%s won\n", name);
+    else printf("%s lost\n", name);
 
     return 0;
 }
