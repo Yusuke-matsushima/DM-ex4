@@ -17,6 +17,9 @@ int main() {
         }
     }
     printf("Heads: %d, Tails: %d\n", win, lose);
+    //victory part
+    if(win > lose) printf("You won\n");
+    else printf("You lost\n");
 
     return 0;
 }
