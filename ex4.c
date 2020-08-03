@@ -3,6 +3,12 @@
 
 int main() {
     int win=0, lose=0, num;
+    //user name part
+    char name[10];
+
+    printf("Who are you?\n");
+    scanf("%s", name);
+    printf("Hello, %s!\n", name);
 
     printf("Tossing a coin...\n");
     for(int i=0; i<3; i++){
